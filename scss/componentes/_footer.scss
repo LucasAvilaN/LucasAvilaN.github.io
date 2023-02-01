@@ -1,0 +1,18 @@
+footer{
+    background-color: $bg-color;
+    display: flex;
+    justify-content: center;
+    font-family: $fuente2;
+    ul{
+        list-style: none;
+        display: inline-block;
+        li{
+            padding: 10px;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+}

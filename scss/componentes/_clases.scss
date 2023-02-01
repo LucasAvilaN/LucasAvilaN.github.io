@@ -1,0 +1,95 @@
+.late{
+    height: 750px;
+}
+
+.QS{
+    font-size: 50px;
+    margin: 30px;
+}
+
+.calecita{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    height: 600px;
+}
+
+.local{
+    font-size: 25px;
+    justify-content: center;
+    margin: 100px;
+    display: grid;
+    font-family: $fuente1;
+}
+
+.objetivos{
+    background-color: $bg-color;
+    border: 2px solid black;
+    margin: 100px;
+    display: grid;
+    font-family: $fuente1;
+    p{
+        font-size: 35px;
+        width: 100%;
+        padding: 10px; 
+    }
+}
+
+.fondo-recetas{
+    background-image: url(../img/fondorecetas.png);
+}
+.cafecito{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    font-family: 'IM Fell Double Pica', serif;
+    font-size: 20px;
+    background-color: gray;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    .carteluno, .carteldos, .carteltres{
+        margin: 40px;
+        transition: all 1.5s;
+        &:hover{
+            scale: (1.1);
+        }
+    }
+}
+
+.mapa{
+    background-color: $bg-color;
+    padding:50px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.caba{
+    color: white;
+    display: flex;
+}
+
+.formulario{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 15px;
+    height: 380px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.duda{
+    color: white;
+    font-size: 20px;
+    margin: 50px;
+}
+.info{
+    font-size: 20px;
+    color: white;
+    margin: 50px;
+    
+}

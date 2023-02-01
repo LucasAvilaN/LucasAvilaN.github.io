@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(106, 20, 20);
+  font-size: 30px;
+  font-family: "IM Fell Double Pica", serif;
+  display: block;
+}
+
+footer {
+  background-color: rgb(106, 20, 20);
+  display: flex;
+  justify-content: center;
+  font-family: "BioRhyme", serif;
+}
+footer ul {
+  list-style: none;
+  display: inline-block;
+}
+footer ul li {
+  padding: 10px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.late {
+  height: 750px;
+}
+
+.QS {
+  font-size: 50px;
+  margin: 30px;
+}
+
+.calecita {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  height: 600px;
+}
+
+.local {
+  font-size: 25px;
+  justify-content: center;
+  margin: 100px;
+  display: grid;
+  font-family: "IM Fell Double Pica", serif;
+}
+
+.objetivos {
+  background-color: rgb(106, 20, 20);
+  border: 2px solid black;
+  margin: 100px;
+  display: grid;
+  font-family: "IM Fell Double Pica", serif;
+}
+.objetivos p {
+  font-size: 35px;
+  width: 100%;
+  padding: 10px;
+}
+
+.fondo-recetas {
+  background-image: url(../img/fondorecetas.png);
+}
+
+.cafecito {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  font-family: "IM Fell Double Pica", serif;
+  font-size: 20px;
+  background-color: gray;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+.contenedor .carteluno, .contenedor .carteldos, .contenedor .carteltres {
+  margin: 40px;
+  transition: all 1.5s;
+}
+.contenedor .carteluno:hover, .contenedor .carteldos:hover, .contenedor .carteltres:hover {
+  scale: 1.1;
+}
+
+.mapa {
+  background-color: rgb(106, 20, 20);
+  padding: 50px;
+  border-radius: 15px;
+  display: flex;
+}
+
+.caba {
+  color: white;
+  display: flex;
+}
+
+.formulario {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 15px;
+  height: 380px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.duda {
+  color: white;
+  font-size: 20px;
+  margin: 50px;
+}
+
+.info {
+  font-size: 20px;
+  color: white;
+  margin: 50px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  margin: 10px;
+  font-family: "IM Fell Double Pica", serif;
+  color: white;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin: 10px;
+  font-family: "IM Fell Double Pica", serif;
+  color: white;
+}
+
+h3 {
+  color: black;
+}
+
+h4 {
+  font-size: 35px;
+  justify-content: center;
+  margin: 20px;
+  padding: 15px;
+  background-color: rgb(106, 20, 20);
+  display: grid;
+  color: black;
+}
+
+body {
+  background-color: black;
+}
+body p {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
