@@ -1,0 +1,15 @@
+$mapalucas: (
+bg-colorin: grey
+margen: 20px
+relleno: 10px
+);
+
+
+.cafecito{
+    margin: map-get($maplucas, $margen );
+    padding: map-get($maplucas, $relleno );
+    display: flex;
+    font-family: 'IM Fell Double Pica', serif;
+    font-size: 20px;
+    background-color: map-get($mapalucas, $bg-colorin);
+}
